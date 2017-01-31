@@ -1,1 +1,105 @@
 
+
+body{
+  background-image: url("http://i1070.photobucket.com/albums/u483/meganvieno/821b5da1-2f5c-4f0f-8097-db77006341eb_zpshpvpvg9v.jpg");
+background-size: 900px 900px ;
+}
+.greenbox{
+  background-color: black;
+  height: 750px;
+  width: 700px;
+  margin: 30px auto;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 0 6px 10px #262626;
+}
+
+#pad{
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+  margin: 50px 50px 50px 50px;
+  position: absolute;
+  background-image: url( "http://i1070.photobucket.com/albums/u483/meganvieno/5d769624-d267-4b34-a7f7-3d604f18b530_zpsuu6ega70.jpg");
+  background-size: 600px 600px;
+  }
+
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 670px;
+  margin-left: 320px;
+  position: absolute;
+  background-color: #262626;
+}
+.button:focus{
+  outline:none;
+}
+
+ul{
+  margin-bottom: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+ul li {
+  margin-top: 30px;
+  color: #FFFCE6;
+  margin-left: -10px;
+}
+
+
+
+#B1, #B2{
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  width: 70px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background-color: rgba(255, 252, 230, 0.5);
+  -webkit-transition:background-color 0.25s;
+  transition:background-color 0.25s;
+  background-color: rgba(255, 252, 230, 0.5);
+}
+#email{
+  margin-left: -10px;
+}
+
+
+#B1{
+  margin-left: 40px;
+}
+
+#B1:focus, #B2:focus{
+  outline:none;
+}
+
+#B1:hover, #B2:hover{
+    background-color: rgb(255, 252, 230);
+   cursor: pointer;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+#signUp{
+  margin-top: 20px;
+}
+
+input{
+  font-size: 20px;
+  width: 260px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFCE6;
+}
+
+input:focus{
+  outline:none;
+}
